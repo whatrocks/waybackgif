@@ -13,11 +13,14 @@ Install [Chrome driver](https://sites.google.com/chromium.org/driver/) to `~/tmp
 
 ## How to run
 
-Change the url to the website of your choosing. Right now, the code is also only storing 1 image per year, but you can remove this filtering. Also these should both be command line options down the road!
-
 ```bash
-python waybackgif.py
+python waybackgif.py http://amazon.com --start_year 1999 --end_year 2003
 ```
+
+* `start_year` defaults to 2020
+* `end_year` defaults to current year
+
+Right now, the code is also only storing 1 image per year, but you can remove this filtering if you want! Also it's not checking to prevent you from doing start year after end year. C'mon.
 
 ## Examples
 
