@@ -6,6 +6,7 @@ create a gif of chronological screenshots from any website on Wayback Machine
 ```bash
 python -m venv .waybackgif
 source .waybackgif/bin/activate
+pip install -r requirements.txt
 ```
 
 Install [Chrome driver](https://sites.google.com/chromium.org/driver/) to `~/tmp/chromedriver`
