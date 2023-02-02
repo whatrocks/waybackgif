@@ -25,3 +25,18 @@ Annual snapshot of apple.com (1996 - 2023)
 
 Annual snapshot of stripe.com (2009 - 2023)
 ![stripe](./stripe.gif)
+
+
+## Tips
+
+Clean up snapshots:
+
+```bash
+rm snapshot*.png
+```
+
+Reduce file size of gif:
+
+```bash
+gifsicle -i original.gif -O3 --colors 256 -o optimized.gif
+```
